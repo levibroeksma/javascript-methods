@@ -13,7 +13,7 @@ console.log("\n");
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
-console.log(fruit.length >= vegetable.length);
+console.log(fruit.length > vegetable.length);
 console.log("\n");
 
 /* Opdracht 2 */
@@ -51,6 +51,7 @@ console.log("\n");
 console.log(story.substring(0, story.indexOf(".")) + ".");
 
 console.log("\n");
+
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
 // * Vervang het dollar-teken voor een euro-teken
@@ -60,8 +61,4 @@ console.log("\n");
 
 const price = "$35.59";
 
-console.log(price.replace("$", "€"));
-
-
-
-
+console.log(price.replace("$", "€").replace(".", ","));
